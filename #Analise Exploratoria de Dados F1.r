@@ -1,1 +1,20 @@
-#Analise Exploratoria de Dados F1
+install.packages(c('quantmod', 'ff', 'foreign' , 'R.matlab'), dependency = T)
+suppressPackageStartupMessages(library(tidyverse))
+
+drivers <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/drivers.csv')
+circuits <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/circuits.csv') 
+constructor_results<- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/constructor_results.csv')
+constructor_standings <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/constructor_standings.csv') 
+constructors <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/constructors.csv')
+driver_standings <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/driver_standings.csv')
+lap_times <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/lap_times.csv')
+pit_stops <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/pit_stops.csv')
+qualifying <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/qualifying.csv')
+races <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/races.csv')
+results <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/results.csv')
+seasons <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/seasons.csv')
+sprint_results <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/sprint_results.csv')
+status <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/status.csv')
+
+head(drivers)
+View(drivers)
