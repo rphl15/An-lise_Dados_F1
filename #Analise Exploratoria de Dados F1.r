@@ -16,5 +16,18 @@ seasons <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basi
 sprint_results <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/sprint_results.csv')
 status <- read.csv('C:/Users/raphael.eugenio/Desktop/Raphael/Programação Basica/Dados F1/An-lise_Dados_F1/status.csv')
 
-head(drivers)
-View(drivers)
+#Visualizando tabelas
+View(circuits) 
+View(constructor_results)
+View(constructor_standings) 
+View(constructors)
+View(driver_standings)
+View(lap_times)
+View(pit_stops)
+View(qualifying)
+View(races)
+View(results)
+View(seasons)
+View(sprint_results)
+View(status)
+
